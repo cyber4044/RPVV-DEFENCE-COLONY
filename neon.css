@@ -1,0 +1,27 @@
+body{
+    background-color: #c2c2c2;
+}
+    #neon{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,  -50%);
+        overflow: hidden;
+        padding: 2%  5%;
+        cursor: pointer;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: 500;
+        font-size: 25;
+        color: #b175ff;
+        background-color: rgb(235, 195, 182);
+        border-radius: 50px;
+        transition: 1s;
+        border: 1px  solid  #b175ff;
+        
+    }
+    #neon:hover{
+        transition: all 0.6% ease-in-out;
+        box-shadow: 0 0 10px #b175ff, 0 0 40px #b175ff, 0 0 80px #b175ff;
+        background-color: #b175ff;
+        color: black
+}
